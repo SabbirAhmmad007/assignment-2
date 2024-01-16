@@ -184,12 +184,18 @@ ul {
 } */
 .destination-img-1 {
   display: grid;
-  grid-template-columns: repeat(2, 573px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin-bottom: 24px;
   margin-right: 0;
   justify-content: center;
+  
 }
+
+.destination-img-1 > img {
+  width: 100%;
+}
+
 .destination-img-2 {
   display: grid;
   grid-template-columns: 374px 474px 274px;
@@ -316,6 +322,7 @@ ul {
   .destination-img-2,
   .destination-img-3 {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .why-choose-us-content {
