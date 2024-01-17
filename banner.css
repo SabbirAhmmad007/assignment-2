@@ -47,11 +47,10 @@
   background: rgba(255, 255, 255, 0.3);
   padding: 1rem;
   margin: 0 11.56rem;
-
+  width: fit-content;
   gap: 1rem;
   justify-content: center;
   align-items: center;
- 
 }
 
 .banner-input .banner-input-btn {
@@ -61,12 +60,18 @@
   background: #fff;
   justify-content: center;
   padding-left: 1rem;
-  
 }
 
 .banner-input > button {
   width: 174px;
   height: 52px;
   justify-content: center;
+  background-image: url("Images/src-logo.png");
+  background-position: 2rem;
+  background-size: 1rem;
+  background-repeat: no-repeat;
 }
-
+.banner-input > button > a {
+  text-decoration: none;
+  color: #fafafa;
+}

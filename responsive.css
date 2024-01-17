@@ -1,69 +1,30 @@
 @media screen and (max-width: 600px) {
-  /* .nav-bar,
-  .nav-left,
-  .popular-tour,
-  .nav-right,
-  .banner-input,
-  .price-div {
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    padding: 1%;
-  }
-  .why-choose-us-content-1 {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .banner {
-    margin: 1.25rem;
-  }
-  .newsletter {
-    grid-template-columns: 1fr;
-  }
-  .destination-img-1,
-  .destination-img-2,
-  .destination-img-3, {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-
-  .why-choose-us-content {
-    grid-template-columns: 1fr;
-    margin: 0, 8rem;
-  }
-  .choose-div {
-    width: 100%;
-  } */
-
-  .nav-bar{
+  .nav-bar {
     display: block;
-
   }
 
-/* banner */
+  /* banner */
 
-.banner-input {
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.3);
-  margin: 0 auto;
-  gap: 1rem;
-
-}
+  .banner-input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0 1.25rem;
+    gap: 1rem;
+  }
 
   /* popular tour */
 
   .popular-tour {
-    margin: 0 auto;
+    margin: 0 1.25rem;
     display: flex;
     flex-direction: column;
   }
 
   /* choose your destination */
   .destination {
-    margin: 0 auto;
+    margin: 0 1.25rem;
   }
   .destination-img-1,
   .destination-img-2,
@@ -82,23 +43,29 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.4rem;
-    margin: 0 auto;
+    margin: 0 1.25rem;
   }
   .price-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 1.25rem;
     margin-top: 1.4rem;
-  }
+    max-width: 100vw;
 
+  }
+  .choose-div {
+    max-width: 29.8rem;
+    height: 15.5rem;
+    padding: 2rem;
+  }
   /* newsletter */
   .newsletter {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    margin: 6.25rem auto;
+    margin: 6.25rem 1.25rem;
   }
 
   /* feedback */
@@ -108,6 +75,6 @@
     gap: 4rem;
     border-radius: 1rem;
     padding: 3rem;
-    margin: 3rem auto;
+    margin: 3rem 1.25rem;
   }
 }
