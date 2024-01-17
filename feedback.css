@@ -9,13 +9,14 @@
 }
 
 .feedback-btn {
-  width: 29.75rem;
+  max-width: 29.75rem;
+  min-width: 15rem;
   height: 3.25rem;
   border-radius: 0.5rem;
   padding: 1rem;
 }
 .feedback-input {
-  width: 28.6rem;
+  max-width: 28.6rem;
   height: 12rem;
   background: rgba(240, 240, 248, 0.842);
   border-radius: 0.5rem;

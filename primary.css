@@ -3,6 +3,10 @@
     padding: 0;
     border: 0;
 }
+p{
+ color: rgba(19, 19, 24, 0.70);
+font-weight: 400;
+}
  
 
 .text-primary {
