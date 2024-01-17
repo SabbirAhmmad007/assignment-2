@@ -15,6 +15,14 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="primary.css" />
     <link rel="stylesheet" href="nav-bar.css" />
+    <link rel="stylesheet" href="banner.css" />
+    <link rel="stylesheet" href="popular-tour.css" />
+    <link rel="stylesheet" href="destination.css" />
+    <link rel="stylesheet" href="why-choose-us.css" />
+    <link rel="stylesheet" href="newsletter.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <header>
@@ -52,14 +60,20 @@
 
         <div class="banner-input">
           <input class="banner-input-btn" type="text" placeholder="Where go" />
-          <select class="banner-input-btn" name="" id=""></select>
-          <select class="banner-input-btn" name="" id=""></select>
-          <button class="btn-primary">Find Now</button>
+          <select class="banner-input-btn" name="" id="">
+            <option value="">When</option>
+          </select>
+          <select class="banner-input-btn" name="" id="">
+            <option value="">Select Type</option>
+          </select>
+          <button class="btn-primary"><a href="#">Find Now</a></button>
         </div>
       </div>
     </header>
 
     <main>
+      <!-- popular-tour-start -->
+
       <div class="popular-tour">
         <div class="popular-tour-content">
           <h1 class="title-primary">Our Popular Tours</h1>
@@ -137,33 +151,37 @@
           </p>
         </div>
         <div class="why-choose-us-content">
-          <div class="hotels choose-div">
-            <img class="logo-choose" src="Images/hotel-logo.png" alt="" />
-            <h1>Handpicked Hotels</h1>
-            <p class="text-primary">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing risus natoque aliquet.
-            </p>
-          </div>
+          <div class="why-choose-us-content-1">
+            <div class="hotels choose-div">
+              <img class="logo-choose" src="Images/hotel-logo.png" alt="" />
+              <h1>Handpicked Hotels</h1>
+              <p class="text-primary">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
 
-          <div class="services choose-div">
-            <img class="logo-choose" src="Images/map-logo.png" alt="" />
-            <h1>World Class Service</h1>
-            <p class="text-primary">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing risus natoque aliquet.
-            </p>
+            <div class="services choose-div">
+              <img class="logo-choose" src="Images/map-logo.png" alt="" />
+              <h1>World Class Service</h1>
+              <p class="text-primary">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
           </div>
-          <div class="price choose-div">
-            <img class="logo-choose" src="Images/price-logo.png" alt="" />
-            <h1>Best Price Guarantee</h1>
-            <p class="text-primary">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing risus natoque aliquet.
-            </p>
+          <div class="price-div">
+            <div class="price choose-div">
+              <img class="logo-choose" src="Images/price-logo.png" alt="" />
+              <h1>Best Price Guarantee</h1>
+              <p class="text-primary">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -181,17 +199,56 @@
         </div>
         <div class="newsletter-picture">
           <img src="Images/newsletter-picture.png" alt="" />
-          <div class="newsletter-save">
+          <!-- <div class="newsletter-save">
             <button class="btn-primary">
               <h3>travel.com</h3>
               <br />
               <h1>Save up to 70%</h1>
             </button>
-          </div>
+          </div> -->
         </div>
       </div>
+
+<!-- feedback section start -->
+
+<div class="feedback">
+  <div>
+    <h1 class="title-primary">Give Your Feedback</h1>
+    <p class="text-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae expedita qui accusantium. Eveniet, id reprehenderit at dolorum omnis quaerat, obcaecati, minus cum voluptatem accusamus quo iusto? Modi laboriosam perferendis saepe!</p>
+  </div>
+  <div>
+    <input type="text" placeholder="Your Feedback" class="feedback-input">
+    <button class="btn-primary feedback-btn">Submit</button>
+  </div>
+</div>
+
     </main>
 
-    <footer></footer>
+    <footer>
+      <!-- footer=setion-start -->
+      <div class="footer-content">
+        <div class="footer-name">
+          <img src="Images/nav-left-logo.png" alt="" />
+          <h1>Travelers <span>007</span></h1>
+        </div>
+        <div>
+          <p class="text-primary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus beatae, velit ipsum quis, at asperiores omnis eligendi,
+            culpa cum quidem sed ullam commodi consectetur praesentium
+            dignissimos recusandae quibusdam libero! Ipsam.
+          </p>
+        </div>
+        <div class="footer-social">
+          <img src="Images/Twitter.png" alt="" />
+          <img src="Images/Facebook.png" alt="" />
+          <img src="Images/Instagram.png" alt="" />
+          <img src="Images/Linkedin.png" alt="" />
+        </div>
+      </div>
+      <div class="rights-reserved">
+        <p>2017, All Rights Reserved</p>
+      </div>
+    </footer>
   </body>
 </html>

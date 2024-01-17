@@ -1,0 +1,72 @@
+/* * banner start */
+
+.banner {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("Images/Banner.png");
+
+  /* width: 100%; */
+  min-height: 70vh;
+  max-width: 80vw;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 9.1rem auto;
+  background-position: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.banner-content {
+  color: #fff;
+  font-family: Mulish;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 6.62rem;
+}
+
+.banner-content > h1 {
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.banner-content > p {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+/* .banner-input*/
+
+.banner-input {
+  display: flex;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  margin: 0 11.56rem;
+
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.banner-input .banner-input-btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  justify-content: center;
+  padding-left: 1rem;
+  
+}
+
+.banner-input > button {
+  width: 174px;
+  height: 52px;
+  justify-content: center;
+}
+
