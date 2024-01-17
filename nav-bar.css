@@ -1,0 +1,48 @@
+/* nav start */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 6rem;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+.nav-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 0 8.4rem;
+}
+.nav-left > img {
+  height: 3rem;
+  width: 3.5rem;
+}
+.nav-left > h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-left > h1 > span {
+  color: #ff5400;
+}
+
+.nav-right > ul > li {
+  display: inline-flex;
+  justify-content: right;
+  margin-right: 3rem;
+  text-decoration: none;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+
+  .nav-a {
+    text-decoration: none;
+    color: #424247;
+  }
+}
+.nav-a > span {
+  color: #ff5400;
+  font-weight: 700;
+}
